@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: Roboto;  
+    font-weight: 500;
+}
+.header {
+    height: 60px;
+    width: 100%;
+    background-image: url(../imgs/capa-restaurante.jpg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font: inherit;
+    font-size: 28px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.foods {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.itens {
+    display: flex;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    overflow-x: scroll;
+    margin-bottom: 50px;
+}
+main img {
+    height: 60px;
+    width: 100px;
+}
+.item {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    align-content: center;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+
+}
+.item .title {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.item .description {
+    font-size: 10px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-weight:400;
+}
+.item .price {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.drink {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.dessert {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.close-order {
+    height: 40px;
+    font-weight: 400;
+
+}
+.close-order p {
+    align-items: start;
+    background-color: aquamarine;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+.close-order button{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    background-color: rgb(255, 35, 35);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.selected {
+    border: 2px solid #00f300;
+}

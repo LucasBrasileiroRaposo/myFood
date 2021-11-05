@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyFood</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Pelota Bolota</h1>
+        </header>
+        <main>
+            <section class="main-dishes">
+                <p class="foods">Comidas</p>
+                <div class="itens">
+                    <div class="item food" id="f1" onclick="selectFood(1,2.5)">
+                        <img src="../imgs/coxinha.jpeg" alt="" >
+                        <p class="title">Coxinha</p>
+                        <p class="description">Deliciosa coxinha de frango e catupiry</p>
+                        <p class="price">R$ 2,50</p>
+                    </div>
+                    <div class="item food" id="f2"onclick="selectFood(2,1.7)">
+                        <img src="../imgs/Receita-de-Pizza.jpg" alt="">
+                        <p class="title">Pizza</p>
+                        <p class="description">Fatia de pizza</p>
+                        <p class="price">R$ 1,70 </p>
+                    </div>
+                    <div class="item food" id="f3" onclick="selectFood(3,2)">
+                        <img src="../imgs/psatel.jpg" alt="">
+                        <p class="title">Pastel</p>
+                        <p class="description">Pastel de 20cm x 40cm </p>
+                        <p class="price">R$ 2,00 </p>
+                    </div>
+                    <div class="item food" id="f4" onclick="selectFood(4,2.8)">
+                        <img src="../imgs/hamburg.jpg" alt="">
+                        <p class="title">Hamburguer</p>
+                        <p class="description">Hamburguer artesenal com verduras e molho especial</p>
+                        <p class="price">R$ 2,80 </p>
+                    </div>
+                </div>
+            </section>
+            <section class="drinks">
+                <p class="drink">Bebidas</p>
+                <div class="itens">
+                    <div class="item drink" id="d1" onclick="selectDrink(1,1.5)">
+                        <img src="../imgs/coca-cola-lata.png" alt="">
+                        <p class="title">Coca-Cola</p>
+                        <p class="description">Refrigerante Coca-Cola 350ml</p>
+                        <p class="price">R$ 1,50 </p>
+                    </div>
+                    <div class="item drink" id="d2" onclick="selectDrink(2,1.3)">
+                        <img src="../imgs/guarana.png" alt="">
+                        <p class="title">Guaraná</p>
+                        <p class="description">Refrigerante Guaraná 350ml</p>
+                        <p class="price">R$ 1,30 </p>
+                    </div>
+                    <div class="item drink" id="d3" onclick="selectDrink(3,1.1)">
+                        <img src="../imgs/refrigerante-fanta-laranja-lata-350ml.jpg" alt="">
+                        <p class="title">Fanta</p>
+                        <p class="description">Refrigerante Fanta 350ml</p>
+                        <p class="price">R$ 1,10 </p>
+                    </div>
+                    <div class="item drink" id="d4" onclick="selectDrink(4,2.0)">
+                        <img src="../imgs/agua.jpg" alt="">
+                        <p class="title">Água mineral</p>
+                        <p class="description">Água mineral sem gás 500ml</p>
+                        <p class="price">R$ 2,00 </p>
+                    </div>
+                </div>
+            </section>
+            <section class="desserts">
+                <p class="dessert">Sobremesas</p>
+                <div class="itens">
+                    <div class="item dessert" id="s1" onclick="selectDessert(1,1.1)">
+                        <img src="../imgs/cheesecake.jpeg" alt="">
+                        <p class="title">Cheesecake</p>
+                        <p class="description">Torta com base de queijo e cobertura de morango</p>
+                        <p class="price">R$ 1,10 </p>
+                    </div>
+                    <div class="item dessert" id="s2" onclick="selectDessert(2,1)">
+                        <img src="../imgs/brigadeiro.jpg" alt="">
+                        <p class="title">Brigadeiro</p>
+                        <p class="description">Brigadeiro tradicional</p>
+                        <p class="price">R$ 1,00 </p>
+                    </div>
+                    <div class="item dessert" id="s3" onclick="selectDessert(3,0.5)">
+                        <img src="../imgs/sorvete.jpg" alt="">
+                        <p class="title">Sorvete</p>
+                        <p class="description">Sorvete de casquinha</p>
+                        <p class="price">R$ 0,50 </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="close-order">
+                <p class="total_value">Valor Total: R$</p>
+                <button>Finalizar pedido</button>
+            </div>
+        </footer>
+    </div>
+    <script src="../src/script.js"></script>
+</body>
+</html>
